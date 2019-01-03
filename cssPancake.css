@@ -1,0 +1,163 @@
+
+body, html {
+	margin: 1vw;
+	padding: 0;
+	background-color: black;
+}
+
+#pail {
+	position: relative;
+	height: 40vw;
+}
+
+#leftSide {
+	background: url("./image/pancake.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 50%;
+	bottom: 0;
+	left: 0;	
+}
+
+#rightSide {
+	background: url("./image/coney.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 50%;	
+}
+
+#topMiddle {
+	position: absolute;
+	top: 0;
+	left: 38vw;
+	width: 20vw;
+	height: auto;	
+}
+
+#bottomMiddle {
+	position: absolute;
+	top: 60%;
+	left: 43vw;
+	width: 10vw;
+	height: auto;	
+}
+
+#logo,
+#vs {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#about {
+	height: 20rem;
+	background-color: firebrick;
+}
+
+#about p {
+	margin: 0;
+	font-size: 2rem;
+	color: yellow;
+}
+
+#pOne {
+	padding: 2rem 0 0.3rem 2rem;
+	text-align: left;
+}
+
+#pTwo,
+#pFour,
+#pFive,
+#pSix {
+	text-align: center;
+}
+
+#pThree {
+	padding: 0.3rem 2rem 1rem 0;
+	text-align: right;
+}
+
+#whereWeAre {
+	margin: 2rem 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+#address p,
+#hours p {
+	font-size: 1.6rem;
+	text-align: center;
+	color: yellow;
+}
+
+#mapSpace {
+	width: 40vw;
+	height: auto;
+}
+
+#map {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#checkUsOut {
+	margin: 4rem 0;
+}
+
+#multipleWays p {
+	font-size: 1.6rem;
+	text-align: center;
+	color: yellow;
+	padding-bottom: 1rem;
+}
+
+#continue {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.pickWhere {
+	margin: 0 1rem 1rem 1rem;
+}
+
+a {
+  display: block;
+  background-color: firebrick;
+  color: yellow;
+  font-size: 1.4rem;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border: 0.2rem solid yellow;
+  border-radius: 0.6rem;
+}
+
+a:hover {
+  background-color: black;
+}
+
+@media screen and (max-width: 700px) {
+	#about p {
+		font-size: 1.6rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#pOne,
+	#pThree {
+		font-size: 1.2rem;		
+		text-align: center;
+	}
+	#pOne {
+		padding: 2rem 0 0.3rem 0;
+	}
+	#pThree {
+		padding: 0.3rem 0 1rem 0;
+	}
+}
