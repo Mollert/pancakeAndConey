@@ -86,7 +86,7 @@ body, html {
 	margin: 2rem 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 #address p,
@@ -97,6 +97,7 @@ body, html {
 }
 
 #mapSpace {
+	margin: 0 1.6rem;
 	width: 40vw;
 	height: auto;
 }
